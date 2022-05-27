@@ -73,6 +73,7 @@ const CreateOrderPage = observer(() => {
                     value={formik.values.subject}
                     onChange={formik.handleChange}
                     style={{marginTop: "20px"}}
+                    InputLabelProps={{shrink: true}}
                 />
             </Grid>
             <Grid item xs={5}>
@@ -101,6 +102,7 @@ const CreateOrderPage = observer(() => {
                     type={"date"}
                     value={formik.values.deadline}
                     onChange={formik.handleChange}
+                    InputLabelProps={{shrink: true}}
                 />
             </Grid>
             <Grid item xs={5}>
@@ -113,6 +115,7 @@ const CreateOrderPage = observer(() => {
                     type={"number"}
                     value={formik.values.price}
                     onChange={formik.handleChange}
+                    InputLabelProps={{shrink: true}}
                 />
             </Grid>
             <Grid item xs={5}>
@@ -128,6 +131,7 @@ const CreateOrderPage = observer(() => {
                     multiline
                     value={formik.values.description}
                     onChange={formik.handleChange}
+                    InputLabelProps={{shrink: true}}
                 />
             </Grid>
             <Grid item xs={12}>

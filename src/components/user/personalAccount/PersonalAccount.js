@@ -202,6 +202,7 @@ const PersonalAccount = observer(() => {
                         rows={16}
                         multiline
                         style={{marginBottom: "10px"}}
+                        InputLabelProps={{shrink: true}}
                     />
                     <Button style={{marginTop: "10px", margin: "auto"}} color={"primary"} variant={"outlined"}
                             onClick={() => {

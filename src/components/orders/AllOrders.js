@@ -76,6 +76,7 @@ const AllOrders = observer(() => {
                         multiline
                         disabled={true}
                         style={{marginBottom: "10px"}}
+                        InputLabelProps={{shrink: true}}
                     />
                     {!userStore.userResponses.includes(currentOrder.id) ?
                         <Button color={"primary"} variant={"outlined"} onClick={() => {

@@ -91,7 +91,7 @@ const OrderManagementPage = observer(() => {
                                         <p><h3>{orderStore.currentManagedOrder.subject}</h3></p>
                                     </Typography>
                                     <Typography>
-                                        <p><b>Категория:</b> {orderStore.currentManagedOrder.status}</p>
+                                        <p><b>Статус:</b> {orderStore.currentManagedOrder.status}</p>
                                     </Typography>
                                     <Typography>
                                         <p><b>Категория:</b> {orderStore.currentManagedOrder.type}</p>

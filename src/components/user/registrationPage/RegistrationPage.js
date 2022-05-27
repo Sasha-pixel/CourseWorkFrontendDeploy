@@ -76,6 +76,7 @@ const RegistrationPage = observer(() => {
                     type={"text"}
                     value={formik.values.fullName}
                     onChange={formik.handleChange}
+                    InputLabelProps={{shrink: true}}
                 />
             </Grid>
             <Grid item xs={5}>
@@ -88,6 +89,7 @@ const RegistrationPage = observer(() => {
                     type={"text"}
                     value={formik.values.email}
                     onChange={formik.handleChange}
+                    InputLabelProps={{shrink: true}}
                 />
             </Grid>
             <Grid item xs={5}>
@@ -100,6 +102,7 @@ const RegistrationPage = observer(() => {
                     name="telephoneNumber"
                     label="Номер телефона"
                     type={"tel"}
+                    InputLabelProps={{shrink: true}}
 
                     // InputProps={{
                     //     inputComponent: NumberFormatCustom,
@@ -116,6 +119,7 @@ const RegistrationPage = observer(() => {
                     type={"password"}
                     value={formik.values.password}
                     onChange={formik.handleChange}
+                    InputLabelProps={{shrink: true}}
                 />
             </Grid>
             <Grid item xs={12}>

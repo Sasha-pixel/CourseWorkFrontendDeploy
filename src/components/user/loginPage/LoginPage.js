@@ -59,6 +59,7 @@ const LoginPage = observer(() => {
                         type={"text"}
                         value={formik.values.email}
                         onChange={formik.handleChange}
+                        InputLabelProps={{shrink: true}}
                     />
                 </Grid>
                 <Grid item xs={5}>
@@ -71,6 +72,7 @@ const LoginPage = observer(() => {
                         helperText={formik.errors.password}
                         value={formik.values.password}
                         onChange={formik.handleChange}
+                        InputLabelProps={{shrink: true}}
                     />
                 </Grid>
                 <Grid item xs={12}>
